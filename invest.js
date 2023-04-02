@@ -10,9 +10,8 @@ let amount = document.querySelector("#amount");
 let years = document.querySelector("#years");
 let interest = document.querySelector("#interest");
 
-//   var total = document.querySelector("#total");
-
-  var total = (amount * years * interest)/100;
+ var total = document.querySelector("#total");
+ total = (amount * years * interest)/100;
  
   
   }
